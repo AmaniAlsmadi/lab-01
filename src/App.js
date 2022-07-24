@@ -1,7 +1,7 @@
 
 import './App.css';
-import main from './main1.js';
-import footer from './footer1.js';
+import Main from './main1.js';
+import Footer from './footer1.js';
 
 function App() {
   return (
@@ -9,8 +9,8 @@ function App() {
       <header className="App-header">
         <h1>Horned Animals</h1>
       </header>
-      <main />
-      <footer />
+      <Main />
+      <Footer />
     </div>
   );
 }
