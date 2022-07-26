@@ -5,6 +5,7 @@ import Footer from './component/footer1.js';
 import Header from './component/header';
 import BasicExample from './component/navBar'
 
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
     <div className="App">
       <BasicExample />
       <Header />
-      <Main />
+      <Main  />
       <Footer />
+      
     </div>
   );
 }
