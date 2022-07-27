@@ -13,6 +13,7 @@ class HornedBeast extends React.Component {
 
     handelClick = () => {
         this.setState({ counter: this.state.counter + 1 });
+        this.props.displayModal(this.props.data);
     }
 
 

@@ -1,49 +1,25 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import './selectedBeast.css';
 
-function MyModal(props) {
+class SelectedBeast extends React.Component{
+  render(){
   return (
-    <Modal
-      {...props}
-      size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-    >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-        {this.props.title}
-        </Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
-        <h4>{this.props.imageUrl}</h4>
-        <p>
-        {this.props.description}
-        </p>
-      </Modal.Body>
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer>
-    </Modal>
+    <Modal show={this.props.show} onHide={this.props.handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>{this.props.SelectedBeast.title}</Modal.Title>
+        </Modal.Header>
+        <Modal.Body> <img className='image' src={this.props.SelectedBeast.image_url} alt={this.props.SelectedBeast.title} />
+        {this.props.SelectedBeast.description}</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={this.props.handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
   );
-}
-
-class ModalShow extends React.Component{
-    constructor(props){
-        super(props);
-        this.state ={
-
-        }
-    }
-    
-    //  I couldn't complete it.. I don't feel good >> I will complete it ASAP
+}}
 
 
-    render(){
-        return(
-        <>
-        <img/>
-        </>
-     ) }
-}
-export default MyModal;
+export default SelectedBeast;
