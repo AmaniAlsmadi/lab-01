@@ -20,9 +20,9 @@ class HornedBeast extends React.Component {
         return (
             <div>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={this.props.imageUrl} alt={this.props.title} />
+                    <Card.Img variant="top" src={this.props.imageUrl} alt={this.props.title} onClick={this.handelClick}/>
                     <Card.Body>
-                        <Card.Title>{this.props.title} <span onClick={this.handelClick}>❤</span>{this.state.counter} </Card.Title>
+                        <Card.Title>{this.props.title} ❤ {this.state.counter} </Card.Title>
                         <Card.Text>{this.props.description}
 
                         </Card.Text>

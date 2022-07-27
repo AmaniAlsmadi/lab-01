@@ -35,7 +35,8 @@ class ModalShow extends React.Component{
 
         }
     }
-
+    
+    //  I couldn't complete it.. I don't feel good >> I will complete it ASAP
 
 
     render(){
