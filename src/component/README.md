@@ -44,3 +44,19 @@
 - **Finish time:** --------
 
 - **Actual time needed to complete:** _____
+
+
+# lab class 04
+
+
+ <br>
+
+- **Number and name of feature:** Feature 1. Filter by Numbers of Horns
+
+- **Estimate of time needed to complete:** 5 hour
+
+- **Start time:** 4:00am
+
+- **Finish time:** 5:00am
+
+- **Actual time needed to complete:** 1 hour .. but I have issue need to ask about it 

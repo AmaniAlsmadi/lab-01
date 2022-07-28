@@ -7,6 +7,8 @@ import Row from 'react-bootstrap/Row';
 
 class Main extends React.Component {
 
+
+  
   render() {
     return (
       <Row xs={1} md={3} className="g-4">
@@ -14,7 +16,7 @@ class Main extends React.Component {
         {
           this.props.allbeast.map((item, idx) =>
             <Col key={idx}>
-              < HornedBeast title={item.title} imageUrl={item.image_url} description={item.description} displayModal={this.props.displayModal} data={item}/>
+              < HornedBeast title={item.title} imageUrl={item.image_url} description={item.description} displayModal={this.props.displayModal} data={item} />
 
             </Col>
           )

@@ -8,6 +8,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Component } from 'react';
 import data from './component/data.json';
 import SelectedBeast from './component/SelectedBeast';
+import Forms from './component/Forms';
+
+
 
 class App extends Component {
   constructor(props) {
@@ -31,6 +34,7 @@ class App extends Component {
     return (
       <div className="App">
         <BasicExample />
+        <Forms/>
         <Header />
         <Main allbeast={this.state.allbeast} displayModal={this.displayModal} />
         <SelectedBeast show={this.state.showModal} handleClose={this.handleClose} SelectedBeast={this.state.SelectedBeast} />
