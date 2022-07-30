@@ -9,7 +9,7 @@
 
 - **Estimate of time needed to complete:** I thought not more 1 hour but I have issue that take from me more than 3 hour to solve
 
-- **Start time:**_____
+- **Start time:** 2:00 pm
 
 - **Finish time:** _____
 
@@ -39,11 +39,11 @@
 
 - **Estimate of time needed to complete:** 2 hour
 
-- **Start time:** ----
+- **Start time:** 2:00 pm
 
-- **Finish time:** --------
+- **Finish time:** ---
 
-- **Actual time needed to complete:** _____
+- **Actual time needed to complete:** 6 hours
 
 
 # lab class 04
@@ -55,8 +55,8 @@
 
 - **Estimate of time needed to complete:** 5 hour
 
-- **Start time:** 4:00am
+- **Start time:** 10:00 am
 
-- **Finish time:** 5:00am
+- **Finish time:** 12:00 am
 
-- **Actual time needed to complete:** 1 hour .. but I have issue need to ask about it 
+- **Actual time needed to complete:** 2 hours
